@@ -1,27 +1,25 @@
 # crypto-research
 Advanced Cryptography Algorithm Research
 
-## Research Areas
+## Focus: Post-Quantum Cryptography
 
-### 🔐 Post-Quantum Cryptography
-- Kyber (KEM)
+This repository focuses on **Kyber (CRYSTALS-Kyber)** - the NIST-standardized post-quantum key encapsulation mechanism.
+
+### Why Kyber?
+- NIST selected (2022)
+- Efficient and practical
+- Active research and implementation interest
+
+## Implementation Status
+
+### ✅ Kyber (Primary Focus)
+- Parameter sets: Kyber512, Kyber768, Kyber1024
+- KEM implementation complete
+- See `post-quantum/kyber/`
+
+### 🔄 Other Areas (Future)
 - Dilithium (Digital Signatures)
-- SPHINCS+ (Hash-based signatures)
-
-### 🔒 Zero-Knowledge Proofs
-- zk-SNARKs implementation
-- zk-STARKs exploration
-- Bulletproofs
-
-### ☁️ Homomorphic Encryption
-- CKKS scheme
-- BFV scheme
-- Practical applications
-
-### 🧮 Advanced Encryption
-- AES optimization
-- ChaCha20-Poly1305
-- Format-preserving encryption
+- ZKP demos (if requested)
 
 ## Quick Start
 
